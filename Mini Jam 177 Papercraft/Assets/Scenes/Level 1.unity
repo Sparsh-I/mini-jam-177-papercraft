@@ -1497,13 +1497,17 @@ PrefabInstance:
       propertyPath: door
       value: 
       objectReference: {fileID: 35164370}
+    - target: {fileID: 5129761134570370033, guid: a25170d8539905048a0865645166dfe7, type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 35164370}
     - target: {fileID: 7569803870270775294, guid: a25170d8539905048a0865645166dfe7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.16
+      value: -7.43
       objectReference: {fileID: 0}
     - target: {fileID: 7569803870270775294, guid: a25170d8539905048a0865645166dfe7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.26
+      value: 3.29
       objectReference: {fileID: 0}
     - target: {fileID: 7569803870270775294, guid: a25170d8539905048a0865645166dfe7, type: 3}
       propertyPath: m_LocalPosition.z
