@@ -6,6 +6,7 @@ public class SwitchController : MonoBehaviour
     [SerializeField] private GameObject interactable;
     private DoorRotation _doorRotationScript;
     private DynamicPlatform _dynamicPlatformScript;
+    private AccordionResizer _accordionResizerScript;
     
     void Start()
     {
@@ -13,6 +14,8 @@ public class SwitchController : MonoBehaviour
             _doorRotationScript = interactable.GetComponent<DoorRotation>();
         else if (CompareTag("Pink"))
             _dynamicPlatformScript = interactable.GetComponent<DynamicPlatform>();
+        else if (CompareTag("Blue"))
+            _accordionResizerScript = interactable.GetComponent<AccordionResizer>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -24,6 +27,9 @@ public class SwitchController : MonoBehaviour
 
             if (CompareTag("Pink"))
                 ShowPlatform();
+
+            if (CompareTag("Blue"))
+                StretchPlatform();
         }
     }
     
@@ -35,5 +41,10 @@ public class SwitchController : MonoBehaviour
     private void ShowPlatform()
     {
         interactable.SetActive(true);
+    }
+
+    private void StretchPlatform()
+    {
+        _accordionResizerScript.on = true;
     }
 }
