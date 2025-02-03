@@ -122,75 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &23964580
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.33151412
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.171317
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0578
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2044481411576205078, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: sceneName
-      value: Level 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
-      propertyPath: m_Name
-      value: Death
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
 --- !u!1001 &76277234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -530,6 +461,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3864548826625888302, guid: 8c1d90fb0bf067642bbcf56784260b92, type: 3}
+      propertyPath: sceneName
+      value: Level 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4449403824479806575, guid: 8c1d90fb0bf067642bbcf56784260b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.838499
@@ -1478,6 +1413,10 @@ PrefabInstance:
     - target: {fileID: 102818150101956886, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2044481411576205078, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
+      propertyPath: sceneName
+      value: Level 4
       objectReference: {fileID: 0}
     - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
       propertyPath: m_Name
@@ -2660,7 +2599,6 @@ SceneRoots:
   - {fileID: 391798143}
   - {fileID: 2073379343}
   - {fileID: 604728741}
-  - {fileID: 23964580}
   - {fileID: 1031416609}
   - {fileID: 1146315329}
   - {fileID: 1932188985}
