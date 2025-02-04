@@ -11,7 +11,7 @@ public class AccordionResizer : MonoBehaviour
     [SerializeField] private float speed;
     private float _newHeight;
     private BoxCollider2D _collider;
-    public bool on;
+    public bool on = false;
 
     void Start()
     {

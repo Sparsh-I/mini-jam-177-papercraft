@@ -2561,6 +2561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Accordion (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736280768274302498, guid: a333712c46486a14cb8368950a58865c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8330003161400040973, guid: a333712c46486a14cb8368950a58865c, type: 3}
       propertyPath: maxWidth
       value: 4.1
@@ -2756,6 +2760,10 @@ PrefabInstance:
     - target: {fileID: 1736280768274302498, guid: a333712c46486a14cb8368950a58865c, type: 3}
       propertyPath: m_Name
       value: Blue Accordion (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736280768274302498, guid: a333712c46486a14cb8368950a58865c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8330003161400040973, guid: a333712c46486a14cb8368950a58865c, type: 3}
       propertyPath: maxWidth
