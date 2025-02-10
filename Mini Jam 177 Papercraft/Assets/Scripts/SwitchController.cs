@@ -6,7 +6,7 @@ public class SwitchController : MonoBehaviour
     [SerializeField] private GameObject interactable;
     private DoorRotation _doorRotationScript;
     private DynamicPlatform _dynamicPlatformScript;
-    private AccordionResizer _accordionResizerScript;
+    private AccordionPlatform _accordionResizerScript;
     
     void Start()
     {
@@ -15,7 +15,7 @@ public class SwitchController : MonoBehaviour
         else if (CompareTag("Pink"))
             _dynamicPlatformScript = interactable.GetComponent<DynamicPlatform>();
         else if (CompareTag("Blue"))
-            _accordionResizerScript = interactable.GetComponent<AccordionResizer>();
+            _accordionResizerScript = interactable.GetComponent<AccordionPlatform>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

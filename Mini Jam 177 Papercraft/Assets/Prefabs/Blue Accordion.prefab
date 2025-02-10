@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 56414533194524915}
   - component: {fileID: 5723900846017878695}
-  - component: {fileID: 8330003161400040973}
   - component: {fileID: 5745015459405358301}
+  - component: {fileID: 3551609272122561777}
   m_Layer: 3
   m_Name: Blue Accordion
   m_TagString: Untagged
@@ -86,24 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8330003161400040973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736280768274302498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c8789196834c046b7364ad555c1d51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  originalWidth: 0.5
-  originalHeight: 1
-  minWidth: 0.5
-  maxWidth: 7.5
-  speed: 9
-  on: 0
 --- !u!61 &5745015459405358301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,3 +131,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3551609272122561777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736280768274302498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71f5e1d6b388b646b64d2e38c00101e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
