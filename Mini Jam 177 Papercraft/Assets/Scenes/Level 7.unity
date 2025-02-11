@@ -1254,7 +1254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3551609272122561777, guid: a333712c46486a14cb8368950a58865c, type: 3}
       propertyPath: speed
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3551609272122561777, guid: a333712c46486a14cb8368950a58865c, type: 3}
       propertyPath: maxWidth
@@ -1359,6 +1359,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
       propertyPath: m_Name
+      value: Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
+      propertyPath: m_TagString
       value: Death
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2083,6 +2087,10 @@ PrefabInstance:
     - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
       propertyPath: m_Name
       value: Death (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644729919297708004, guid: b03d2b7f2150c384f8fb59c7ae2ccd2f, type: 3}
+      propertyPath: m_TagString
+      value: Death
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
