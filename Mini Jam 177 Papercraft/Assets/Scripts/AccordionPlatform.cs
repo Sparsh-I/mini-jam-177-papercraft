@@ -31,6 +31,6 @@ public class AccordionPlatform : MonoBehaviour
         // Resize object
         transform.localScale = new Vector3(newWidth, originalHeight, transform.localScale.z);
      
-        if (_collider) _collider.size = new Vector2(transform.localScale.x / newWidth, transform.localScale.y / originalHeight);
+        if (_collider) _collider.size = new Vector2(transform.localScale.x / (newWidth / 4), transform.localScale.y / (originalHeight / 4));
     }
 }

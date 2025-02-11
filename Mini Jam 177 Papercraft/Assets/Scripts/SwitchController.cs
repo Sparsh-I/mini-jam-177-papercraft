@@ -20,17 +20,14 @@ public class SwitchController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            if (CompareTag("Green"))
-                ToggleDoor();
+        if (CompareTag("Green"))
+            ToggleDoor();
 
-            if (CompareTag("Pink"))
-                ShowPlatform();
+        if (CompareTag("Pink"))
+            ShowPlatform();
 
-            if (CompareTag("Blue"))
-                StretchPlatform();
-        }
+        if (CompareTag("Blue"))
+            StretchPlatform();
     }
     
     private void ToggleDoor()

@@ -9,6 +9,7 @@ public class Endpoint : MonoBehaviour
     [SerializeField] private string sceneName;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(sceneName);
+        if (other.CompareTag("Player")) SceneManager.LoadScene(sceneName);
+        if (CompareTag("Death")) SceneManager.LoadScene(sceneName);
     }
 }
