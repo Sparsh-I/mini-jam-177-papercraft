@@ -51,7 +51,7 @@ A puzzle platformer where you activate different switches to unlock areas and re
 ## **Development**  
 Developed using Unity Game Engine.
 - Recommended Unity version: 2022.3.35f1.
-- Assets created in Illustrator/LibreSprite.
+- Assets created in Illustrator.
 - Physics and procedural generation algorithms customized for endless gameplay.
 
 ---
