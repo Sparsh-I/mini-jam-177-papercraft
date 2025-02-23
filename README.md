@@ -19,6 +19,7 @@ A puzzle platformer where you activate different switches to unlock areas and re
 
 ![image](https://github.com/user-attachments/assets/2a321a5f-df7a-48d1-accc-09f7fc00f2ce)
 
+--
 
 ### **Features**:
 - Minimalistic design and simple controls.  
